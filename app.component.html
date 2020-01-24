@@ -1,0 +1,24 @@
+<html>
+  <h3 align="center">CALCULATOR</h3>
+  <table align=center>
+    <tr>
+      Number1:
+      <input type="number"   [(ngModel)]="firstNumber">
+     
+    </tr>
+    <tr>
+      Number2:
+      <input type="number" [(ngModel)]="secondNumber">
+    </tr>
+    <tr>
+      Result :
+      <input type="text" [(ngModel)]="result">
+    </tr>
+    <tr>
+    <button (click)="add()">add</button>
+    <button (click)="sub()">sub</button>
+    <button (click)="mul()">mul</button>
+    <button (click)="div()">div</button>
+    </tr>
+  </table> 
+</html>
